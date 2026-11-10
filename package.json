@@ -1,0 +1,20 @@
+{
+  "name": "llm-triage-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A rerunnable protocol to measure how well an LLM triages product requests, with 200 fictional tickets and their expected outcome.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "evaluate": "tsx scripts/evaluate.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "5.6.3",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}
